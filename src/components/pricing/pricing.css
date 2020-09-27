@@ -1,0 +1,54 @@
+.main-title {
+    font-size: 35px;
+    letter-spacing: .8px;
+}
+.main-title {
+    font-size: 35px;
+    letter-spacing: .8px;
+}
+.simple{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: .8px
+}
+.simple2{
+    font-size: 12px;
+    text-align: center;
+}
+.pricing-rates {
+    position: relative;
+    z-index: 1;
+    border-bottom: 3px solid #adb5bd;
+    border-radius: 10px!important;
+    background-color: #f8f9fc!important;
+    margin-top: 40px;
+}
+.pricing-rates1 {
+    position: relative;
+    z-index: 1;
+    border-bottom: 3px solid #4267b2;
+    border-radius: 10px!important;
+    background-color: #fff;
+    margin-top:20px;
+    padding-bottom: 20px;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 2;
+    border-color: #4267b2; 
+    position: relative;
+    border-bottom: 10px solid #4267b2;
+    box-shadow: 0 0 3px rgba(0,0,0,.15)!important;
+    
+}
+.mb-4{
+    margin-bottom: 1.5rem!important;
+}
+.muted{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.tickmuted{
+    font-size:16px ;
+    padding-top: 10px;
+    line-height: 40px;
+}

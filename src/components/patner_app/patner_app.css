@@ -1,0 +1,44 @@
+ div.col-md-2{
+     padding-left: 0px;
+ }
+ .uni{
+    padding-left: 35px;
+    text-align: center;
+}
+.patners{
+    font-size: 35px;
+    padding-top:120px;
+}
+.paras{
+    max-width: 660px;
+    font-size: 14px;
+    padding-top:30px ;
+    
+    
+    line-height: 1.6;
+}
+.hrr{
+    height: 50px;
+    background-color: rgb(247, 247, 247);
+    margin-top:100px ;
+}
+.main-title {
+    font-size: 35px;
+    letter-spacing: .8px;
+    padding-top: 100px;
+}
+.mr-2{
+    margin-left: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+     margin-right: -15px; 
+    margin-left: -15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15pxpx;
+    margin-left: -15pxpx;
+}

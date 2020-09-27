@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/navbar/navbar';
+import Unlock from './components/navbar/unlock/unlock';
+import Feature from './components/feature/feature';
+import Job from './components/job/job';
+import Optimization from './components/optimization/optimization';
+import Pricing from './components/pricing/pricing';
+import Patner_app from './components/patner_app/patner_app';
+import Footer from './components/footer/footer';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar />
+    <Unlock />
+    <Feature />
+    <Job />
+    <Optimization />
+    <Pricing />
+    <Patner_app />
+    <Footer />
+    
     </div>
   );
 }
