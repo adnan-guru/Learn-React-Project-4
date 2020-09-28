@@ -6,6 +6,7 @@ function Patner_app(){
 
 
 <div className="container">
+
       <div className="row uni">
         <div className="col-md-2"></div>
         <div className="col-md-8">
@@ -16,6 +17,7 @@ function Patner_app(){
       </div>
 
       <div className="row">
+        
         <div className="col-md-2"></div>
         <div className="col-md-8">
           <p className="text-muted paras mb-10 mx-auto">Use our platform to serve your customers in a whole new way by
