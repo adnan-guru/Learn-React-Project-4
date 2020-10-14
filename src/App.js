@@ -8,21 +8,43 @@ import Pricing from './components/pricing/pricing';
 import Patner_app from './components/patner_app/patner_app';
 import Footer from './components/footer/footer';
 import 'bootstrap/dist/css/bootstrap.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 
 function App() {
   return (
+    <Router>
     <div className="App">
     <Navbar />
-    <Unlock />
-    <Feature />
-    <Job />
-    <Optimization />
-    <Pricing />
-    <Patner_app />
-    <Footer />
-    
+      <Switch>
+    <Router exact path="/home">
+      <Unlock />
+      <Feature />
+      <Job />
+      <Pricing />
+      <Optimization />
+      <Patner_app />
+    </Router>
+    <Router  path="/feature">
+      <Feature />
+    </Router>
+    <Router path="/pricing">
+      <Pricing />
+    </Router>
+    <Router path="/patner">
+      <Patner_app />
+    </Router>
+    </Switch>
     </div>
+   
+    <Footer />
+    </Router>
   );
 }
 

@@ -7,7 +7,7 @@ function Footer(){
 
 
 
-<div class="container-fluid">
+<div class="container" style={{paddingLeft:'0px',paddingRight:'0px'}}>
     <div class="row footer">
       <div class="col-md-4">
         <img class="responsive respon" src={image6} alt="" />

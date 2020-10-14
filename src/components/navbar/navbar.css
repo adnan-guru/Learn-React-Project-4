@@ -1,3 +1,10 @@
 .button{
     margin-left: -5px;
 }
+
+.MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: white !important;
+    box-shadow: 2px -6px 13px 4px #d0d0d0;
+    background-color: white;
+}

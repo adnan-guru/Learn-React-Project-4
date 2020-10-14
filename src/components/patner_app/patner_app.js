@@ -5,7 +5,7 @@ function Patner_app(){
     <div>
 
 
-<div className="container">
+<div className="container-fluid">
 
       <div className="row uni">
         <div className="col-md-2"></div>
@@ -15,7 +15,6 @@ function Patner_app(){
         </div>
         <div className="col-md-2"></div>
       </div>
-
       <div className="row">
         
         <div className="col-md-2"></div>
@@ -28,14 +27,14 @@ function Patner_app(){
         </div>
         <div className="col-md-2"></div>
       </div>
+    
     </div>
 
-    <div className="container-fliud">
-      <div className="row">
+    <div className="container-fluid">
+    <div className="row">
         <div className="col-md-12 hrr">
         </div>
       </div>
-
       <div className="row">
         <div className="col-md-4"></div>
         <div className="col-md-5">
@@ -44,27 +43,18 @@ function Patner_app(){
         <div className="col-md-3"></div>
       </div>
       <div className="row start">
-        <div className="col-md-3"></div>
+        <div className="col-md-2"></div>
         <div className="col-md-8">
-          <p className="text-muted paras3 mx-auto">Start working with resumas - your missing link to interviews. Kickstart
+          <p className="startworking">Start working with resumas - your missing link to interviews. Kickstart
             your interview process</p>
         </div>
-        <div className="col-md-1"></div>
+        <div className="col-md-2"></div>
       </div>
+     
     </div>
     <div className="row">
-      <div className="col-md-4"></div>
-      <div className="col-md-7">
-
-        <a  className="btn btn-primary mt-2 mr-2" href="https://resumas.com/page-legal"><i
-            className="mdi mdi-apple"></i> App Store
-        </a>
-
-        <a  className="btn btn-primary mt-2 mr-2" href="https://resumas.com/page-legal"><i
-            className="mdi mdi-google-play"></i> Play Store
-        </a>
-      </div>
-      <div className="col-md-1"></div>
+     
+     
     </div>
   </div>
 

@@ -1,11 +1,12 @@
 import React from 'react';
 import  './navbar.css';
 import image1 from '../../images/img1.png';
-
+import AppBar from '@material-ui/core/AppBar';
+import {Link} from 'react-router-dom';
 function Navbar(){
      return(
-    <div>
-
+    
+  <AppBar position="fixed" className="mynavbar" >
 <div className="container">
     <div className="row">
       <div className="col-md-2">
@@ -21,20 +22,20 @@ function Navbar(){
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#"
-                  style= {{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>HOME</b></a>
+                <Link className="nav-link" to="home"
+                  style= {{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>HOME</b></Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href=""
-                  style={{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>FEATURES</b></a>
+                <Link className="nav-link" to="feature"
+                  style={{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>FEATURES</b></Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"
-                  style={{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>PRICING</b></a>
+                <Link className="nav-link" to="pricing"
+                  style={{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>PRICING</b></Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"
-                  style={{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>PATNERS</b></a>
+                <Link className="nav-link" to="patner"
+                  style={{color:"#3c4858", padding: "30px",fontSize:"12px", lineHeight: "1px"}}><b>PATNERS</b></Link>
 
               </li>
             </ul>
@@ -51,7 +52,7 @@ function Navbar(){
       </div>
     </div>
   </div>
-  </div>
+  </AppBar>
 
     )
 }
